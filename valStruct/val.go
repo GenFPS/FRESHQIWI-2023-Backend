@@ -1,5 +1,9 @@
 package valute
 
+import (
+	"encoding/xml"
+)
+
 type ValCurs struct {
 	XMLName xml.Name `xml:"ValCurs"`
 	Date    string   `xml:"Date,attr"`
