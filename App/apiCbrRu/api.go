@@ -61,5 +61,5 @@ func GetCurrencyVal(valDate string, valCode string) (float64, error) {
 			return valute.Value, nil
 		}
 	}
-	return 0, fmt.Errorf("Курс для указанной валюты не найден")
+	return 0, fmt.Errorf("КУРС ДЛЯ УКАЗАННОЙ ВАЛЮТЫ НЕ НАЙДЕН")
 }

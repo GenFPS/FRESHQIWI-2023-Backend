@@ -1,9 +1,10 @@
 package main
 
 import (
-	"./apiCbrRU"
 	"fmt"
 	"os"
+
+	"ApiCbRf/Task/apiCbrRu"
 )
 
 /*
@@ -15,7 +16,7 @@ func main() {
 	date := os.Args[1] // Задаем код валюты в формате ISO 4217
 	code := os.Args[2] // Задаем нужную дату в формате YYYY-MM-DD
 
-	rate, err := apiCbrRU.GetCurrencyVal(date, code)
+	rate, err := apiCbrRu.GetCurrencyVal(date, code)
 	if err != nil {
 		fmt.Printf("Ошибка получения курса валюты: %v\n", err)
 		return
